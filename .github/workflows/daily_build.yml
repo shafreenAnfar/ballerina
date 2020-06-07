@@ -2,7 +2,7 @@ name: Ballerina daily build
 
 on:
   schedule:
-    - cron:  '0 */4 * * *'
+    - cron:  '0 */24 * * *'
 
 jobs:
   ubuntu_build:
